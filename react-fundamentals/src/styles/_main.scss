@@ -19,7 +19,22 @@ Main Section
     animation: App-logo-spin infinite 20s linear;
     height: 80px;
   }
+
+  .display-3{
+    color: aqua;
+  }
   
+  .lead{
+    color: green;
+  }
+
+  .arrow{
+    color: green
+  }
+
+  .arrowlead{
+    color: aqua;
+  }
   
   @keyframes App-logo-spin {
     from { transform: rotate(0deg); }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import FunctionalComponentDemo from './components/concepts/FunctionalComponentDemo'
 import Header from './components/site/Header'
 import Footer from './components/site/Footer'
 import Sidebar from './components/site/Sidebar'
