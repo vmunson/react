@@ -10,6 +10,9 @@ import TimePiecesApp from '../../components/apps/timer-apps/TimePiecesApp'
 import ReactConceptsApp from '../apps/concept-list-app/ReactConceptApp'
 import FriendsListApp from '../apps/friends-list-app/FriendsListApp'
 import MovieSearchApp from '../apps/movie-search-app/MovieApp'
+import Video from '../apps/YouTubeApi/Video'
+import GithubApp from '../apps/GithubApi/GithubApp';
+import GithubCardAppWithSearch from '../apps/GithubApi/GithubCardAppWithSearch'
 
 export const routes = [
     {
@@ -68,5 +71,15 @@ export const routes = [
     path: '/friends',
     exact: true,
     main: () => <FriendsListApp />
-  }
+  },
+  {
+    path: '/youtube',
+    exact: true,
+    main: () => <Video />
+  },
+  {
+    path: '/githubsimpleapi',
+    exact: true,
+    main: () => <div><GithubApp /> <GithubCardAppWithSearch /> </div>
+  },
 ]
