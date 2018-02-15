@@ -8,6 +8,7 @@ import PropsDemo from '../concepts/PropsDemo'
 import LifeCycleCodepen from '../concepts/LifeCycleCodepen'
 import TimePiecesApp from '../../components/apps/timer-apps/TimePiecesApp'
 import ReactConceptsApp from '../apps/concept-list-app/ReactConceptApp'
+import FriendsListApp from '../apps/friends-list-app/FriendsListApp'
 import MovieSearchApp from '../apps/movie-search-app/MovieApp'
 
 export const routes = [
@@ -63,4 +64,9 @@ export const routes = [
     exact: true,
     main: () => <MovieSearchApp />
   },
+  {
+    path: '/friends',
+    exact: true,
+    main: () => <FriendsListApp />
+  }
 ]
